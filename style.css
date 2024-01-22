@@ -1,17 +1,18 @@
-/* Sets the box-sizing for the series of web-pages: */
+/* Sets the box-sizing format for the series of web-pages: */
   * {
     box-sizing: border-box;
   }
 
-/* Sets the background-color, font-size, & font-family for the series of web-pages: */
+/* Sets the background-color, default font-size, & font-family for the series of web-pages: */
   html {
-    background-color: #6cbfd4;
+    background-color: rgb(24, 50, 68);
     font-size: 16px;
     font-family: sans-serif;
   }
 
 /* Formats the "body" for the series of web-pages: */
   body {
+    background-color: #367c8e;
     box-shadow: 0 0 12px -2px black;
     padding: 0;
     max-width: 960px;
@@ -55,6 +56,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
+    text-align: center;
   }
 
 /* Formats & resizes all img's located in the "main" section of the series of web-pages: */
@@ -69,11 +71,11 @@
   main .quote {
     font-family: 'Satisfy', cursive;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     text-shadow: 1px 1px 2px black;
     text-align: center;
-    margin-top: 8em;
+    margin-top: 9em;
   }
 
 /* Formats the "footer" section for the series of web-pages: */
@@ -96,8 +98,47 @@
     margin: 0 25px;
   }
 
-/* Sets the height of the "media-link" class located inside the "footer": */
+/* Resizes all "images" belonging to the "media-link" class: */
   footer .media-link {
     height: 45px;
+  }
+
+/* Sets the font-weight, size & position for the "about-header" element: */
+  #about-header {
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+/* Formats the individual "section" tags for the series of web-pages: */
+  .about-section {
+    border-top: 1px solid #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 8em;
+  }
+
+/* Resizes all "images" located under the "about-section" class: */
+  .about-section img {
+    height: 125px;
+  }
+
+/* Sets the first image, in the series of "hobby" images, to the left of the accompanying text: */
+  .about-section:nth-of-type(n) > img {
+    float: left;
+    margin: 0px 24px 24px 24px;
+  }  
+  
+/* Sets the second image, in the series of "hobby" images, to the right of the accompanying text: */
+  .about-section:nth-of-type(2n) > img {
+    float: right;
+    margin: 0px 24px 24px 24px;
+  }
+
+/* Sets the third image, in the series of "hobby" images, to the left of the accompanying text: */
+  .about-section:nth-of-type(3n) > img {
+    float: left;
+    margin: 0 24px 24px 24px;
   }
 
