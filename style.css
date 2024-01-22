@@ -110,7 +110,7 @@
     text-align: center;
   }
   
-/* Formats the individual "section" tags for the series of web-pages: */
+/* Formats the "about-section" class: */
   .about-section {
     border-top: 1px solid #ffffff;
     font-size: 16px;
