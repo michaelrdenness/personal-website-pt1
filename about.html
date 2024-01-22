@@ -27,26 +27,42 @@
                 </div>
                 <!-- Creates a "links" element in the header. Includes links to external html, & a self referencing home page: -->
                 <div id="links">
-                    <a class="active" href="#">Home</a>
-                    <a href="about.html">About</a>
+                    <a href="index.html">Home</a>
+                    <a class="active" href="about.html">About</a>
                     <a href="portfolio.html">Portfolio</a>
                 </div>
             </nav>
         </header>
         <!-- The "main" section of the webpage. The true "body" of the page you are viewing: -->
         <main>
-            <!-- Displays an image of myself along with present title(s) & a short "about me": -->
-            <img src="/Images/michaeldenness.jpg"/>
-            <h2><u>Web Developer</u></h2>
-            <p>
-                Currently a full-time student at "Fullstack Academy". Looking to further improve my development skills and become a valuable asset to the industry!
-            </p>
-            <!-- Displays a quote by Winston Churchill: -->
-            <h3 class="quote">
-                "Success is not final, failure is not fatal: it is the courage to continue that counts."
-                <br>
-                - Winston Churchill
-            </h3>
+            <!-- Creates a "header" for the "about" page. Includes some flavor-text: -->
+            <h1 id="about-header">
+                When I'm not helping clients realize their web-based visions, you can find me:
+            </h1>
+            <!-- Creates an "about-section" class: -->
+            <section class="about-section">
+                <!-- Children elements of the "about-section" class: -->
+                <!-- Dedicated to explaining my various hobbies. Includes flavor-text & images: -->
+                <h2><u>Playing Music</u></h2>
+                <img class="about-img" src="/Images/music.JPG" alt="music"/>
+                <p>
+                    I love playing music. I primarily play the drums but also play guitar. In my spare time I dabble in music production, along with performing and writing!
+                </p>
+            </section>
+            <section class="about-section">
+                <h2><u>Climbing</u></h2>
+                <img class="about-img" src="/Images/climb.jpg" alt="climb"/>
+                <p>
+                    Climbing is my sport of choice. I started around one year ago, and have been absolutely loving it ever since. Nothing beats a good personal best at the gym!
+                </p>
+            </section>
+            <section class="about-section">
+                <h2><u>Gaming</u></h2>
+                <img class="about-img" src="/Images/game.PNG" alt="game"/>
+                <p>
+                    An avid gamer since childhood, you can usually find me online playing something. Lately my game of choice has been "Sea of Thieves". Catch me on the open waters matey!
+                </p>
+            </section>
         </main>
         <!-- Sets a "footer" (end) section for the webpage, includes links to various social media: -->
         <footer>
