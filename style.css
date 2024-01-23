@@ -110,7 +110,7 @@
     text-align: center;
   }
   
-/* Formats the "about-section" class: */
+/* Formats the "about-section" class for "about.html": */
   .about-section {
     border-top: 1px solid #ffffff;
     font-size: 16px;
@@ -119,7 +119,7 @@
     margin-bottom: 8em;
   }
 
-/* Resizes all "images" located under the "about-section" class: */
+/* Resizes all "images" belonging to the "about-section" class: */
   .about-section img {
     height: 125px;
   }
@@ -142,3 +142,42 @@
     margin: 0 24px 24px 24px;
   }
 
+/* Sets the font-weight, size & position for the "project-header" element: */
+  #project-header {
+    font-weight: 100;
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+/* Formats the "project" class for "portfolio.html": */
+  .project {
+    width: calc(100% - 6em);
+    background: #d7e1f0;
+    color: #000000;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+  }
+
+/* Formats text tagged "h2" under the "project" class: */
+  .project h2 {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    border-bottom: 2px solid #ccc;
+  }
+
+/* Formats the "project-content" class for "portfolio.html": */
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Resizes all "images" belonging to the "project-content" class: */
+  .project-content img {
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+  }
